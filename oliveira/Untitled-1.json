@@ -1,0 +1,132 @@
+{
+    "id": "5df8f51a-0b2e-4b71-bb13-5e7cf0e73fc0",
+    "displayId": "6609",
+    "createdAt": "2025-03-18T20:12:15.235Z",
+    "category": "FOOD",
+    "orderTiming": "IMMEDIATE",
+    "orderType": "DELIVERY",
+    "delivery": {
+        "mode": "DEFAULT",
+        "description": "Padrão",
+        "deliveredBy": "MERCHANT",
+        "deliveryDateTime": "2025-03-18T20:52:15.235Z",
+        "deliveryAddress": {
+            "streetName": "Rua TESTE",
+            "streetNumber": "999999",
+            "formattedAddress": "Rua TESTE, 999999",
+            "neighborhood": "Bairro TESTE",
+            "complement": "Complemento TESTE",
+            "postalCode": "99999999",
+            "city": "TESTE",
+            "state": "XX",
+            "country": "XX",
+            "reference": "TESTE",
+            "coordinates": {
+                "latitude": 0.0,
+                "longitude": 0.0
+            }
+        },
+        "pickupCode": "6195"
+    },
+    "preparationStartDateTime": "2025-03-18T20:12:15.235Z",
+    "isTest": true,
+    "salesChannel": "IFOOD",
+    "merchant": {
+        "id": "842325d2-2728-48bc-9ead-257d3265077d",
+        "name": "Teste - Ascont Informática Ltda"
+    },
+    "customer": {
+        "id": "b3331f54-b4e8-4a3e-84dd-ebdb5acae181",
+        "name": "PEDIDO DE TESTE - Ascont Desenvolvimento",
+        "documentNumber": "02115180500",
+        "phone": {
+            "number": "0800 705 3040",
+            "localizer": "25392078",
+            "localizerExpiration": "2025-03-19T00:12:15.235Z"
+        },
+        "ordersCountOnMerchant": 0,
+        "segmentation": "Cliente"
+    },
+    "items": [
+        {
+            "index": 1,
+            "id": "4c47d453-cacb-3692-8889-a18b40b977f8",
+            "uniqueId": "4e764c77-4a1d-48ac-a5b7-43014965d456",
+            "name": "PEDIDO DE TESTE - GRA",
+            "type": "LEGACY_PIZZA",
+            "ean": "",
+            "quantity": 1,
+            "unit": "UN",
+            "unitPrice": 0.00,
+            "optionsPrice": 53.00,
+            "totalPrice": 53.00,
+            "price": 0.00,
+            "observations": "",
+            "options": [
+                {
+                    "index": 2,
+                    "id": "aad37c18-0fe4-3111-a8aa-63072c27270e",
+                    "name": "Massa Tradicional + Borda Cheddar",
+                    "type": "CRUST",
+                    "groupName": "Escolha a sua Preferência",
+                    "externalCode": "111",
+                    "ean": "",
+                    "quantity": 1,
+                    "unit": "UN",
+                    "unitPrice": 3.00,
+                    "addition": 0.00,
+                    "price": 3.00
+                },
+                {
+                    "index": 3,
+                    "id": "b7af6eae-c2f8-39d1-9bb7-28c6cb95a764",
+                    "name": "Frango",
+                    "type": "TOPPING",
+                    "groupName": "Escolha um sabor",
+                    "externalCode": "3",
+                    "ean": "",
+                    "quantity": 1,
+                    "unit": "UN",
+                    "unitPrice": 50.00,
+                    "addition": 0.00,
+                    "price": 50.00
+                }
+            ],
+            "imageUrl": "https://static-images.ifood.com.br/image/upload/t_high/pratos/e078d2e1-0af0-49c3-ba0d-ea4effffbd54/202305121137_XIHJ_i.jpg"
+        }
+    ],
+    "total": {
+        "additionalFees": 0.00,
+        "subTotal": 53.00,
+        "deliveryFee": 8.90,
+        "benefits": 0,
+        "orderAmount": 61.90
+    },
+    "payments": {
+        "prepaid": 61.90,
+        "pending": 0,
+        "methods": [
+            {
+                "value": 61.90,
+                "currency": "BRL",
+                "method": "CREDIT",
+                "prepaid": true,
+                "type": "ONLINE",
+                "card": {
+                    "brand": "VISA"
+                }
+            }
+        ]
+    },
+    "picking": {
+        "picker": "DEFAULT"
+    },
+    "additionalInfo": {
+        "metadata": {
+            "deliveryProduct": "SELF_DELIVERY",
+            "cartId": "8a983070-8438-4b3a-b510-4076e90d77e4",
+            "logisticProvider": "MERCHANT"
+        }
+    },
+    "check": {}
+}
